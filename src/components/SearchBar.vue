@@ -1,6 +1,6 @@
 <template>
     <div>
-        <input type="text" v-on:input="onInput">
+        <input type="text" @input="onInput">
     </div>
 </template>
 
@@ -9,7 +9,7 @@ export default {
     name: "SearchBar",
     methods: {
         onInput: function(event) {
-            console.log(event.target.value);
+            this.$emit("termChange", event.target.value);
         }
     }
 }
