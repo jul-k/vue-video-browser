@@ -7,6 +7,7 @@
 
 <script>
 import SearchBar from "./components/SearchBar";
+const API_KEY = "AIzaSyDXohZgX9DwzAqav0EgYVj5yEU6icq9kSo";
 
 export default {
     name: "App",
