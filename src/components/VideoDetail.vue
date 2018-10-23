@@ -1,6 +1,9 @@
 <template>
     <div v-if="video">
-        {{ video.snippet.title }}
+        <div class="details">
+            <h4>{{ video.snippet.title }}</h4>
+            <p>{{ video.snippet.description }}</p>
+        </div>
     </div>
 </template>
 
@@ -14,5 +17,10 @@ export default {
 </script>
 
 <style scoped>
-
+    .details {
+        margin-top: 10px;
+        padding: 10px;
+        border: 1px solid #000;
+        border-radius: 4px;
+    }
 </style>
