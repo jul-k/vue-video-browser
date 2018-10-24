@@ -18,6 +18,7 @@ export default {
 <style scoped>
     input {
         width: 75%;
+        outline: 0;
     }
     div {
         text-align: center;
