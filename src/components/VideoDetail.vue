@@ -21,7 +21,7 @@ export default {
         videoUrl() {
             // const videoId = this.video.id.videoId;
             const { videoId } = this.video.id; // ES6 syntax
-            return `http://www.youtube.com/embed/${videoId}`;
+            return `https://www.youtube.com/embed/${videoId}`;
         }
     }
 }

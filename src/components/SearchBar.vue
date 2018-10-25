@@ -1,6 +1,6 @@
 <template>
     <div>
-        <input type="text" @input="onInput">
+        <input type="text" @input="onInput" placeholder="start typing here...">
     </div>
 </template>
 
